@@ -13,9 +13,9 @@ function calcularDescuento() {
   if (total > 100) {
     console.log(` 10% de descuento aplicado. Total: $${(total * 0.9).toFixed(2)}`);
   } else if (total > 50) {
-    console.log(`🛍️ 5% de descuento aplicado. Total: $${(total * 0.95).toFixed(2)}`);
+    console.log(` 5% de descuento aplicado. Total: $${(total * 0.95).toFixed(2)}`);
   } else {
-    console.log(`💳 Total sin descuento: $${total.toFixed(2)}`);
+    console.log(`Total sin descuento: $${total.toFixed(2)}`);
   }
 }
 agregar("Cereal", 30000);
